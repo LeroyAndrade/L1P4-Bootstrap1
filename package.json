@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/LeroyAndrade/L1P4-Bootstrap1#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.3",
+    "jquery-match-height": "^0.7.2"
   }
 }

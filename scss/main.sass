@@ -1,0 +1,28 @@
+///aanpassing voor: node_modules/scss/variabeles.scss #72   bootstrap v4.4.1
+$primary: #090 
+
+///aanpassing voor: node_modules/scss/variabeles.scss #8   bootstrap v4.4.1
+$white: #e3e3e3
+
+@import "../node_modules/bootstrap/scss/bootstrap"
+
+///Toon eigen css pas nadat Bootstrap is geladen, anders wordt het overschreven
+body
+ background-color: #f1f1f1
+
+.jumbotron
+ background-image: url('../img/theMightyDwarfs.jpg')
+ background-size: cover
+
+@media screen and (min-width: 640px)
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&')
+
+ .jumbotron
+  background-image: url('../img/elven.jpg')
+
+h1, h3
+ font-family: Roboto, sans-serif, cursive
+
+h3
+ font-size: 1.5rem
+
