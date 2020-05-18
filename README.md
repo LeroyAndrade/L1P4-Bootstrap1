@@ -1,3 +1,5 @@
+#typo in commit:  bovenstaande tot en met #19
+
 # Start document
 # live url: http://30168.hosts2.ma-cloud.nl/bewijzenmap/periode4.4/fro/bootstrap/lotr/index.html
 
